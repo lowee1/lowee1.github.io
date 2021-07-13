@@ -1,0 +1,41 @@
+/* CSS Document */
+
+body {
+	background-color: black;
+	display: flex;
+	align-content: center;
+	width: 100vw;
+	height: 100%;
+	margin: 0;
+	flex-direction: column;
+}
+
+div {
+	display: flex;
+}
+
+#name_header {
+	color: white;
+	font-family: 'Helvetica';
+	text-align: center;
+	font-size: 6em;
+}
+
+#name_div {
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 60vh;
+}
+
+#main {
+	flex-direction: row;
+	flex-flow: wrap;
+}
+
+.boxes {
+    width: 50vw;
+	height: 40vw;
+	border-radius: 5vw;
+	background-color: #2D2828;
+}
