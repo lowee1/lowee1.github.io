@@ -1,20 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="js/script.js"></script>
     <title>lowee1</title>
-</head>
-<body>
-    <div id="name_div"><h1 id="name_header">lowee1</h1></div>
-	<div id="main">
-		<div class="boxes"></div>
-		<div class="boxes"></div>
-		<div class="boxes"></div>
-		<div class="boxes"></div>
-		<div class="boxes"></div>
-		<div class="boxes"></div>
-	</div>
-</body>
+  </head>
+
+  <body>
+    <header>
+      <div id="name_div">
+        <h1 id="name_header">
+          <a href="https://github.com/lowee1">lowee1</a>
+        </h1>
+        <div id="arrow" onclick="scrollToMain(); document.documentElement.requestFullscreen()">
+          <img class="box_image" src="img/arrow.svg" id="down_arrow_img" />
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <div class="boxes">
+        <div class="hidden box_description_container">
+          <p class="box_description">
+            An implementation of Hangman with both text and graphical based user interfaces.
+          </p>
+        </div>
+        <div class="image_expanded image_container">
+          <img
+            class="box_image"
+            src="img/hangman.jpg"
+            alt="image of hangman game"
+          />
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="image_expanded image_container">
+          <img
+            class="box_image"
+            src="img/placeholder.png"
+            alt="placeholder image"
+          />
+        </div>
+        <div class="hidden box_description_container">
+          <p class="box_description">
+            Quibusdam accusantium ex quidem occaecati. Quia et error modi. Rem
+            ex laudantium asperiores delectus facere libero ipsam temporibus.
+            Iusto ipsum odit distinctio. Corrupti odio totam aut quaerat
+            reiciendis maxime autem cum. Tempora consequatur optio fugiat. Qui
+            tempora dolores sed quasi laudantium voluptatem magnam. Aut
+            perspiciatis consequatur qui perspiciatis enim rerum.
+          </p>
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="hidden box_description_container">
+          <p class="box_description">
+            Quibusdam accusantium ex quidem occaecati. Quia et error modi. Rem
+            ex laudantium asperiores delectus facere libero ipsam temporibus.
+            Iusto ipsum odit distinctio. Corrupti odio totam aut quaerat
+            reiciendis maxime autem cum. Tempora consequatur optio fugiat. Qui
+            tempora dolores sed quasi laudantium voluptatem magnam. Aut
+            perspiciatis consequatur qui perspiciatis enim rerum.
+          </p>
+        </div>
+        <div class="image_expanded image_container">
+          <img
+            class="box_image"
+            src="img/placeholder.png"
+            alt="placeholder image"
+          />
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="image_expanded image_container">
+          <img
+            class="box_image"
+            src="img/placeholder.png"
+            alt="placeholder image"
+          />
+        </div>
+        <div class="hidden box_description_container">
+          <p class="box_description">
+            Quibusdam accusantium ex quidem occaecati. Quia et error modi. Rem
+            ex laudantium asperiores delectus facere libero ipsam temporibus.
+            Iusto ipsum odit distinctio. Corrupti odio totam aut quaerat
+            reiciendis maxime autem cum. Tempora consequatur optio fugiat. Qui
+            tempora dolores sed quasi laudantium voluptatem magnam. Aut
+            perspiciatis consequatur qui perspiciatis enim rerum.
+          </p>
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="hidden box_description_container">
+          <p class="box_description">
+            Quibusdam accusantium ex quidem occaecati. Quia et error modi. Rem
+            ex laudantium asperiores delectus facere libero ipsam temporibus.
+            Iusto ipsum odit distinctio. Corrupti odio totam aut quaerat
+            reiciendis maxime autem cum. Tempora consequatur optio fugiat. Qui
+            tempora dolores sed quasi laudantium voluptatem magnam. Aut
+            perspiciatis consequatur qui perspiciatis enim rerum.
+          </p>
+        </div>
+        <div class="image_expanded image_container">
+          <img
+            class="box_image"
+            src="img/placeholder.png"
+            alt="placeholder image"
+          />
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="image_expanded image_container">
+          <img
+            class="box_image"
+            src="img/placeholder.png"
+            alt="placeholder image"
+          />
+        </div>
+        <div class="hidden box_description_container">
+          <p class="box_description">
+            Quibusdam accusantium ex quidem occaecati. Quia et error modi. Rem
+            ex laudantium asperiores delectus facere libero ipsam temporibus.
+            Iusto ipsum odit distinctio. Corrupti odio totam aut quaerat
+            reiciendis maxime autem cum. Tempora consequatur optio fugiat. Qui
+            tempora dolores sed quasi laudantium voluptatem magnam. Aut
+            perspiciatis consequatur qui perspiciatis enim rerum.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Published with&nbsp;<a href="http://pages.github.com">GitHub Pages</a>
+      </p>
+    </footer>
+  </body>
 </html>
