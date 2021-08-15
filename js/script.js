@@ -15,6 +15,10 @@ function scrollToMain() {
   arrow.style.display = "none";
   jQuery("#name_header").fitText(0.3);
 
+function go(url) {
+  window.location.href = url
+}
+
   var boxes = document.querySelectorAll(".boxes");
   6;
   boxes.forEach((box) => {
